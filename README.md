@@ -19,7 +19,7 @@ Real-Time-Object-Detection-Service-Based-on-Mask-R-CNN is a research Will(Liyour
 
 These research initiatives enabled Will(Liyourong) to be appointed as the research lead of this research team.
 
-For the source code of the project, please refer to the ji_model_23.py in the same directory. 
+For the source code of the project, please refer to the ji_model_23.py in the same directory. A considerable amount of code is hidden for academic integrity purposes.  
 
 ### Abstract
 With the development of technology, object detection, and segmentation have turned from outlines on paper to pragmatic applications like Automated vehicles (AVs) and have recently become a popular subject in both research and industry domains, implying the societal and industrial revolution. Pedestrian safety is one of the prime targets of advanced driver assistance systems. This project delves into the depth of the existing object detection industry, adding object segregation to build a Deep-Learning model based on the R-CNN method to detect various classes of objects, classify them, and bind each entity with a rectangle boundary. The team has built a Mask R-CNN model that has accuracy as high as 99% and can detect pedestrians and localize them using a bounding box. The report below illustrates what the team has done so far, gives practical step-by-step instructions for any colleague to review, qualitative and quantitative results, and possible further developments upon that as well as Ethical Considerations.
@@ -38,3 +38,11 @@ After the team had the model trained, the team tested the model on the images. T
 
 ### Model Performance & Explanation
 Compared to the baseline model, the primary model achieved a 48.58% increase in the accuracy regarding the accuracy of class prediction, and a 33% time increase in the training process. The increase in the accuracy is attributed to the more complex architecture of the Mask R-CNN model with pixel-wise segmentation to better understand the content of the image. Such ability ensures the Mask R-CNN model acquires more information than RestNet-50. Also, due to the involvement in more context and complex pattern recognition of Mask R-CNN, it exhibits better generalization to new, unseen data, especially data that the team collected under different light and time conditions. The increase in the processing time is mainly attributed to the surge in the requirement for computation per input image. The Mask R-CNN model requires significantly more computation due to the more complex architecture.
+
+# Acknowledgment
+
+I would like to extend my deepest gratitude to my esteemed colleagues **Cindy Hu**, **Matthew Tian**, and **Alex Yuan**, whose invaluable assistance and dedication have been fundamental to the success of this project. The collaborative effort and commitment demonstrated by each member have played a crucial role in navigating the challenges encountered throughout the research process.
+
+Particularly, I wish to highlight the significant contributions made by **Alex Yuan**. Alex's expertise and tireless efforts in constructing the final model were instrumental in achieving our research objectives. His meticulous attention to detail and innovative approach have not only enhanced the quality of our work but have also set a benchmark for excellence within our team.
+
+The journey of this research project has been a testament to the power of teamwork, and it is with sincere appreciation that I acknowledge the efforts of Cindy, Matthew, and Alex. Without their support, the realization of this project would not have been possible. I am profoundly grateful for their contributions and look forward to our future collaborations.
